@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css?family=Yellowtail&display=swap');
+/*----------universal elements section start----------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Calibri, monospace;
+    font-size: 1em;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    background: rgba(232, 232, 232, 0.5);
+}
+
+.headerLogo {
+    width: 90%;
+    height: 88%;
+    min-height: 44px;
+    background: url("../img/logo.svg?n=1") no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: center;
+    margin: 2% 5% 7% 5%;
+    cursor: pointer;
+}
+
+.headerWhatsAppAndEnquiryItems {
+    font-size: 0.96rem;
+}
+
+.headerSearchInput > * {
+    height: 35px;
+}
+
+.headerMenuIcon {
+    max-width: 80px;
+    height: 63px;
+    font-size: 1.07rem;
+}
+
+.headerSmallScreenNavMenuBtn {
+    border: 2px solid transparent;
+    font-size: 1.6rem;
+    display: block;
+    height: 24px;
+    font-weight: bold;
+    margin: -4px auto;
+    background: transparent;
+}
+
+.smallScreenSocialMediaMenuBar {
+    margin: 11px 13px 0 0;
+}
+
+.smallScreenSocialMediaMenuBarList {
+    background: transparent;
+    margin: 5px 0 0 0 !important;
+    border: transparent;
+}
+
+.smallScreenSocialMediaMenuBtn {
+    border-radius: 50%;
+    height: 33px;
+    width: 33px;
+    border: 2px solid black;
+    padding: 2px 5px 0 4px !important;
+    font-size: 1.16rem;
+    background: transparent;
+}
+
+.smallScreenSocialMediaMenuBarListItems {
+    height: 37px;
+    width: 36px;
+    border-radius: 50%;
+    outline: none;
+    text-align: center;
+    margin: 1px 0 6px 0;
+    font-size: 1.5rem;
+    background: white;
+    border: 2px solid black;
+}
+
+.headerWhatsAppAndEnquiryItems:hover,
+.headerSmallScreenNavMenuBtn:hover,
+.smallScreenSocialMediaMenuBtn:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.smallScreenSocialMediaMenuBarListItems:hover {
+    border: 2px solid black;
+    opacity: 0.7;
+}
+
+.headerSmallScreenNavBarList {
+    width: 100vw !important;
+    margin: 13px 0 0 0 !important;
+}
+
+.headerSmallScreenNavMenuBarListItem {
+    height: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.headerSmallScreenNavMenuBarListItem:hover {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    opacity: 0.3;
+}
+
+.headerSearchButton {
+    font-size: 1.1rem;
+    padding: 2px 5px 5px 5px;
+}
+
+.headerSocialMediaIcons > *:hover,
+.linkWhatsAppIcon > *:hover,
+.linkEnquiryIcon > *:hover,
+.headerMenuIcon:hover,
+.headerSmallScreenNavBar:hover {
+    cursor: pointer;
+}
+
+.headerSocialMediaIcons > *:hover,
+.linkWhatsAppIcon > *:hover,
+.linkEnquiryIcon > *:hover,
+.headerMenuIcon:hover,
+.headerLogo:hover,
+.headerSearchButton:hover,
+.headerSearchIcon:focus,
+.headerSearchIcon:active,
+.headerSearchInput:focus {
+    box-shadow: none;
+    opacity: 0.5;
+}
+
+.headerSmallScreenNavBar {
+    border: 2px solid transparent;
+    height: 33px;
+    width: 35px;
+    font-weight: bold;
+    background: transparent;
+    margin: 12px 0 0 0 !important;
+}
+
+.headerSmallScreenNavBar:hover {
+    border: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.img1 {
+    background: url("../img/img1.jpg?n=1") no-repeat;
+}
+
+.img2 {
+    background: url("../img/img2.jpg?n=1") no-repeat;
+}
+
+.img3 {
+    background: url("../img/img3.jpg?n=1") no-repeat;
+}
+
+.img4 {
+    background: url("../img/img4.jpg?n=1") no-repeat;
+}
+
+.img5 {
+    background: url("../img/img5.jpg?n=1") no-repeat;
+}
+
+.img6 {
+    background: url("../img/img6.jpg?n=1") no-repeat;
+}
+
+.img1, .img2, .img3 {
+    min-height: 230px;
+}
+
+.img4, .img5, .img6 {
+    min-height: 220px;
+}
+
+.img1, .img2, .img3,
+.img4, .img5, .img6 {
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.boxTwoTextContainer1, .boxTwoTextContainer2 {
+    padding: 4% 2% 0 2%;
+    min-height: 250px;
+    height: 100%;
+    text-shadow: 2px 0 #fff, -2px 0 #fff,
+    0 2px #fff, 0 -2px #fff,
+    1px 1px #fff, -1px -1px #fff,
+    1px -1px #fff, -1px 1px #fff;
+}
+
+.boxTwoTextContainer2 {
+    padding: 5.4% 2% 0 6%;
+}
+
+.boxTwoText1,
+.boxTwoText2,
+.boxTwoText3 {
+    color: black;
+    font-size: 1rem;
+    font-family: Calibri, monospace;
+    font-weight: bold;
+    text-align: center;
+}
+
+.boxTwoText1 {
+    color: darkred;
+    font-family: Yellowtail, monospace;
+    font-size: 1.2rem;
+}
+
+.boxTwoText2 {
+    font-size: 1.5rem;
+}
+
+.boxTwoText3 {
+    /*margin-top: 5px;*/
+    font-size: 0.8rem;
+    font-weight: normal;
+    text-shadow: 1px 0 #fff, -1px 0 #fff,
+    0 1px #fff, 0 -1px #fff;
+}
+
+.boxThreeText1,
+.boxThreeText2,
+.boxThreeText3 {
+    background: linear-gradient(to bottom,
+    rgba(139, 0, 0, 0.05),
+    rgba(255, 255, 255, 0.05));
+    text-shadow: 2px 0 #fff, -2px 0 #fff,
+    0 2px #fff, 0 -2px #fff,
+    1px 1px #fff, -1px -1px #fff,
+    1px -1px #fff, -1px 1px #fff;
+    font-size: 1.4rem;
+    color: black;
+    font-family: Calibri, monospace;
+    font-weight: bold;
+    text-align: center;
+}
+
+.boxTwoTextButton,
+.boxThreeTextButton,
+.boxFiveTextButton {
+    background: darkred;
+    width: 80px;
+    height: 28px;
+    padding: 2px 2px 3px 2px;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    border: 2px solid darkred;
+    color: white;
+}
+
+.boxTwoTextButton:hover,
+.boxThreeTextButton:hover {
+    background-color: white;
+    color: darkred;
+    border: 2px solid darkred;
+}
+
+.boxFiveTextButton {
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+
+.boxFiveTextButton:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+
+.img7, .img8, .img9 {
+    min-height: 200px;
+    background-size: cover;
+}
+
+.img7 {
+    background: url("../img/img7.jpg?ds=1") no-repeat center;
+}
+
+.img8 {
+    background: url("../img/img8.jpg?ds=1") no-repeat center;
+}
+
+.img9 {
+    background: url("../img/img9.jpg?ds=1") no-repeat center;
+}
+
+.boxFourHeadLine {
+    font-family: Arial, monospace;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: 5px;
+}
+
+.boxFourParagraph {
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+.boxFourReadMoreText {
+    cursor: pointer;
+    width: fit-content;
+}
+
+.boxFourReadMoreText:hover {
+    opacity: 0.6;
+}
+
+.boxFourContainerHeadline,
+.boxFiveContainerHeadline,
+.boxSixContainerHeadline {
+    font-family: Yellowtail, monospace;
+    font-size: 1.4rem;
+    color: darkred;
+    background: white;
+    text-align: center;
+}
+
+.boxFiveImgText {
+    padding: 15% 15% 13% 10%;
+    height: 100%;
+}
+
+.boxFiveText0 {
+    font-size: 1.8rem;
+    color: white;
+    font-family: Yellowtail, monospace;
+}
+
+.boxFiveText1 {
+    font-size: 2rem;
+    color: white;
+    font-weight: bolder;
+}
+
+.boxFiveText2 {
+    font-size: 1rem;
+    color: white;
+    font-family: Calibri, monospace;
+}
+
+.img10, .img11, .img12, .img13 {
+    min-height: 310px;
+    background-size: cover;
+}
+
+.img10 {
+    background: url("../img/img10.jpg?ds=1") no-repeat center;
+}
+
+.img11 {
+    background: url("../img/img11.jpg?ds=1") no-repeat center;
+    background-size: cover, contain;
+}
+
+.img12 {
+    background: url("../img/img12.jpg?ds=1") no-repeat center;
+}
+
+.img13 {
+    background: url("../img/img13.jpg?ds=1") no-repeat center;
+}
+
+/*----------footer section start----------*/
+
+.footerSubscribeHeading {
+    font-size: 1.5rem;
+    font-family: Yellowtail, monospace;
+}
+
+.footerSubscribeLinkEmail {
+    min-width: 275px;
+}
+
+.footerSubscribeInputBox {
+    border: 1px solid black;
+    border-right: none;
+}
+
+.footerSubscribeLink {
+    height: auto;
+    text-align: center;
+    background-color: rgba(226, 221, 217, 0.5);
+}
+
+.footerSubscribeInput {
+    width: 70%;
+    min-width: 218px;
+    height: 40px;
+}
+
+.footerSubscribeButton {
+    float: right;
+    width: 30%;
+    min-width: 78px;
+    height: 40px;
+    background: darkred;
+    border: 1px solid black;
+    color: white;
+}
+
+.footerSubscribeButton:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.footerMenusList * {
+    font-size: 0.9em;
+    min-width: 40px;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.footerMenuListItem1,
+.footerMenuListItem2,
+.footerMenuListItem3,
+.footerMenuListItem4,
+.footerMenuListItem5 {
+    border-right: 1px solid black;
+    padding: 0 6px;
+    text-align: center;
+    height: 20px;
+}
+
+.footerMenuListItem5 {
+    border-right: none !important;
+}
+
+.footerMenuListItem1:hover, .footerMenuListItem2:hover,
+.footerMenuListItem3:hover, .footerMenuListItem4:hover,
+.footerMenuListItem5:hover {
+    opacity: 0.7;
+    border-right: 1px solid black;
+}
+
+.footerStraightLine {
+    margin: 10px 0;
+    border-bottom: 1px solid black;
+}
+
+.footerSocialMediaLinkFollowUs {
+    width: 70px;
+}
+
+.footerSocialMediaLinkItem {
+    width: 25px;
+}
+
+.footerSocialMediaLinkItem:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+/*----------footer section end----------*/
+
+
+/*----------Small To Medium Screen Start----------*/
+@media (min-width: 576px) {
+
+    .img1 {
+        min-height: 270px;
+    }
+
+    .img2, .img3 {
+        min-height: 240px;
+        height: 100%;
+    }
+
+    .img4, .img5, .img6 {
+        min-height: 210px;
+        height: 100%;
+    }
+
+    .img10, .img11 {
+        min-height: 370px;
+    }
+
+    .img12, .img13 {
+        min-height: 350px;
+    }
+}
+
+/*----------Small To Medium Screen End----------*/
+
+
+/*----------Large to Extra Large Screen Start----------*/
+@media (min-width: 992px) {
+
+    .img1 {
+        min-height: 350px;
+    }
+
+    .img2, .img3 {
+        min-height: 330px;
+        height: 100%;
+    }
+
+    .img4, .img5, .img6 {
+        min-height: 260px;
+        height: 100%;
+    }
+
+    .img10, .img11 {
+        min-height: 430px;
+    }
+
+}
+
+/*----------Large to Extra Large Screen Start----------*/
+
+
+/* Script Ended! */
+
